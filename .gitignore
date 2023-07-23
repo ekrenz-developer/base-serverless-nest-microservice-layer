@@ -5,10 +5,6 @@ jspm_packages
 .serverless
 .webpack
 
-# # git submodules
-# .submodules/
-# !submodules/.gitkeep
-
 # Logs
 logs
 *.log
