@@ -7,6 +7,7 @@ jspm_packages
 
 # git submodules
 .submodules/
+!submodules/.gitkeep
 
 # Logs
 logs
