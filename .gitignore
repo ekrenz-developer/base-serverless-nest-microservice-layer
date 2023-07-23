@@ -6,7 +6,7 @@ jspm_packages
 .webpack
 
 # git submodules
-# .submodules/
+.submodules/
 !submodules/.gitkeep
 
 # Logs
