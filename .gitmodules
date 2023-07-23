@@ -1,0 +1,3 @@
+[submodule ".submodules/serverless-nest-microservice-template"]
+	path = .submodules/serverless-nest-microservice-template
+	url = https://github.com/ekrenz-developer/serverless-nest-microservice-template.git

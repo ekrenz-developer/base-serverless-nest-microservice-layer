@@ -5,6 +5,9 @@ jspm_packages
 .serverless
 .webpack
 
+# git submodules
+.submodules/
+
 # Logs
 logs
 *.log
