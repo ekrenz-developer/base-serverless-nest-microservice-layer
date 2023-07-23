@@ -1,0 +1,10 @@
+service: serverless-nest-microservice-layer
+frameworkVersion: '3'
+
+layers:
+  base:
+    name: "prod-dependencies"
+    compatibleRuntimes:
+      - "nodejs18.x"
+    package:
+      artifact: app/nodejs.zip
