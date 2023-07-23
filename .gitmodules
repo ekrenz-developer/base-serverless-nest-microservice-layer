@@ -1,3 +1,0 @@
-[submodule ".submodules/base"]
-	path = .submodules/base
-	url = https://github.com/ekrenz-developer/serverless-nest-microservice-template.git
