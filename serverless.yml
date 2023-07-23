@@ -3,8 +3,8 @@ frameworkVersion: '3'
 
 layers:
   base:
-    name: "prod-dependencies"
+    name: 'base-serverless-nest-microservice-prod-dependencies'
     compatibleRuntimes:
-      - "nodejs18.x"
+      - 'nodejs18.x'
     package:
       artifact: app/nodejs.zip
