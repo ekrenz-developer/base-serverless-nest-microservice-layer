@@ -1,10 +1,14 @@
 service: serverless-nest-microservice-layer
 frameworkVersion: '3'
 
+provider:
+  name: aws
+  profile: ekrenz-serverless
+
 layers:
   base:
     name: 'base-prod-dependencies'
     compatibleRuntimes:
       - 'nodejs18.x'
     package:
-      artifact: app/nodejs.zip
+      artifact: nodejs.zip
