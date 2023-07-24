@@ -6,7 +6,7 @@ plugins:
 
 provider:
   name: aws
-  profile: ${env:FUNC_PREFIX}
+  profile: ${env:AWS_PROFILE}
 
 layers:
   base:
