@@ -1,9 +1,12 @@
 service: serverless-nest-microservice-layer
 frameworkVersion: '3'
 
+plugins:
+  - serverless-dotenv-plugin
+
 provider:
   name: aws
-  profile: ekrenz-serverless
+  profile: ${env:FUNC_PREFIX}
 
 layers:
   base:
